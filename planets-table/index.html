@@ -16,8 +16,9 @@
         
         <!-- Add a main element to contain the table -->
             
+        <main> 
             <!-- Add the table element. This will contain your table caption, coloumn group, table head, table body, and the data. -->
-                
+             <table>   
                 <!-- The caption element should be the first child of the table element, and wrap the following text and link.-->
         
               <caption> 
@@ -26,42 +27,146 @@
         
         <colgroup>
         <col>
-        <col>
-        <col>
-        <col>
-        <col>
-        <col>
-        <col>
-        <col>
-        <col>
-        <col>
-        <col>
-        <col>
-        <col>
+        <col title="name">
+        <col title="mass">
+        <col title="diameter">
+        <col title="density">
+        <col title="gravity">
+        <col title="length of the day">
+        <col title="distance from sun">
+        <col title="mean temperature">
+        <col title="number of moons">
+        <col title="notes">
+        <col title="image">
         <col>
     
         </colgroup>
-    
         <thead>
         <tr>
-        <td></td>   
-        <th></th>    
-        <th></th>
-        <th></th>
-        <th></th>
-        <th></th>
-        <th></th>
-        <th></th>
-        <th></th>
-        <th></th>
-        <th></th>
-        <th></th>
-        <th></th>
-        <th></th>
-        <th></th>
+            
+        <td colespan="2"></td>   
+        <th scope="row">Name</th>    
+        <th scope="row">Mass (10<sup>24</sup>kg)</th>
+        <th scope="row">Diameter (km)</th>
+        <th scope="row">Density (kg/m<sup>3</sup>)</th>
+        <th scope="row">Gravity (m/s<sup>2</sup>)</th>
+        <th scope="row">Length of day (hours)</th>
+        <th scope="row">Distance from Sun (10</th>
+        <th scope="row">Mean temperature (C)</th>
+        <th scope="row">Number of moons</th>
+        <th scope="row">Notes</th>
+        <th scope="row">Image</th>
             
         </tr>
         </thead>
+                 
+        <tbody>
+        <tr>
+        <th colspan="2" rowspan="4" scope="rowgroup">Terrestrial planets</th>
+        <th scope="row">Mercury</th>
+        <td>0.330</td>
+        <td>4,879</td>
+        <td>5427</td>
+        <td>3.7</td>
+        <td>4222.6</td>
+        <td>57.9</td>
+        <td>167</td>
+        <td>0</td>
+        <td>Closest to the Sun</td>
+        <td><img src="images/mercury.jpg" alt="planet mercury"></td>
+               
+        </tr>
+        <tr>
+            <th scope="row">Venus</th>
+            <th>4.87</th>
+            <td>12,104</td>
+            <td>5243</td>
+            <td>8.9</td>
+            <td>2802.0</td>
+            <td>108.2</td>
+            <td>464</td>
+            <td>0</td>
+            <td></td>
+            <td><img src="images/venus.jpg" alt="planet venus"></td>
+        </tr>
+        <tr>
+         <th scope="row">Earth</th>
+            <th>5.97</th>
+            <td>12,756</td>
+            <td>5514</td>
+            <td>9.8</td>
+            <td>24.0</td>
+            <td>149.6</td>
+            <td>15</td>
+            <td>1</td>
+            <td>Our World</td>
+            <td><img src="images/earth.png" alt="planet earth"></td>
+                
+        </tr>     
+        <tr>
+         <th scope="row">Mars</th>
+            <th>0.642</th>
+            <td>6,792</td>
+            <td>3933</td>
+            <td>3.7</td>
+            <td>24.7</td>
+            <td>227.9</td>
+            <td>-65</td>
+            <td>2</td>
+            <td>The red planet</td>
+            <td><img src="images/mars.jpg" alt="planet mars"></td>
+            
+        </tr>
+        
+        <tr>
+        <th rowspan="4" scope="rowgroup">Jovian planets</th>
+        <th rowspan="2" scope="rowgroup">Gas giants</th>  
+        <th scope="row">Jupiter</th>   
+            <td>1898</td>
+            <td>142,984</td>
+            <td>1326</td>
+            <td>23.1</td>
+            <td>9.9</td>
+            <td>778.6</td>
+            <td>-110</td>
+            <td>67</td>
+            <td>The largest planet</td>
+            <td><img src="images/jupiter.jpg" alt="planet jupiter"></td>    
+        
+        </tr>
+        <tr>
+         <th scope="row">Venus</th>
+            <th>4.87</th>
+            <td>12,104</td>
+            <td>5243</td>
+            <td>8.9</td>
+            <td>2802.0</td>
+            <td>108.2</td>
+            <td>464</td>
+            <td>0</td>
+            <td></td>
+            <td><img src="images/venus.jpg" alt="planet venus"></td>    
+        
+            
+            
+        </tr>
+        </tbody> 
+                 
+    
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
         <thead>
         </thead>       
         
@@ -81,5 +186,7 @@
                 <!-- The fourth child of the table element should be the table body element, which will contain the code and content to display rows of data. -->
                     
                 <!-- Please note that you do NOT need to add a table footer for this assignment. -->
+            </table>
+        </main>
     </body>
 </html>
