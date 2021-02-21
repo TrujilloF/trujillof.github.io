@@ -155,7 +155,12 @@ figcaption {
 /* Footer */
 footer {
     padding: 1rem; 
-    border-top: 
+    border-top: 2rem solid #333;
     
 }
 
+/* Symbols*/
+
+h4>span {
+    padding: 0 .5rem;
+}
