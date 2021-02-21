@@ -62,7 +62,8 @@ h1 {
     color:darkred;
     text-shadow:.09375rem .09375rem .09375rem #000;
     font-family:'Alfa Slab One', Garamond, serif;
-    text-align:center;
+    text-align: center;
+    
 }
 
 h2 {
