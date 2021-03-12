@@ -47,6 +47,19 @@
 
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
+@font-face {
+    font-family:"josefinslab";
+    src: url("../fonts/josefinslab-regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family:"lato";
+    src: url("../lato-regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 * {
     box-sizing: border-box;
@@ -102,7 +115,7 @@ img {
 nav a {
     display: inline-block;
     border: 1px solid black;
-    padding: 1.25rem 2rem;
+    padding: 1.5rem 2.5rem;
 }
 
 nav {
