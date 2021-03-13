@@ -70,9 +70,10 @@ html {
 }
 
 body {
-    margin: 1.5rem auto;
+    margin: 1rem auto;
     width:90%;
     min-width:56.25rem;
+    max-width: 100rem
 }
 
 /* Layout */
@@ -102,23 +103,65 @@ aside {
 
 
 img {
-    width: 100%;
+    width: 90%;
     
 }
 
 .article-image {
     width: 33%;
     float: left; 
-    margin-right: 1rem;
+    margin-right: 1.5rem;
+    margin-left: -2.4rem;
 }
 
 nav a {
     display: inline-block;
-    border: 1px solid black;
-    padding: 1.5rem 2.5rem;
+    padding: 1.5rem 3rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: "josefinslab-regular";
 }
 
 nav {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
 }
+
+h1 {
+  font-family: josefinsLab, Garamond, serif;
+    letter-spacing: 0.125rem;
+    font-size: 3rem;
+    margin: 4rem;
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-weight: bold;
+    
+}
+
+.rotate {
+    transform: rotate(-3deg)
+}
+
+.highlight {
+    display: inline-block;
+    font-size: 50px
+    text-align: center;
+    padding: 20px 10px;
+    box-shadow: 4px 5px 6px 1px;
+    text-shadow: 0 0 1px black;
+    
+}
+
+h2 {
+    font-family: "lato-regular", Garamond, serif;
+    font-size: 1.5rem;
+    margin-left: 0.25rem;
+    letter-spacing: 0.0125rem;
+}
+
+
+
+
+
+
