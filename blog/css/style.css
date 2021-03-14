@@ -140,15 +140,15 @@ h1 {
 }
 
 .rotate {
-    transform: rotate(-3deg)
+    transform: rotate(-3deg);
 }
 
 .highlight {
     display: inline-block;
-    font-size: 50px
+    font-size: 50px;
     text-align: center;
     padding: 20px 10px;
-    box-shadow: 4px 5px 6px 1px;
+    box-shadow: 5px 5px 5px 1px;
     text-shadow: 0 0 1px black;
     
 }
