@@ -153,6 +153,12 @@ h1 {
     
 }
 
+.expand {
+    font-size: 4px;
+    letter-spacing: 1px;
+    
+}
+
 h2 {
     font-family: "lato-regular", Garamond, serif;
     font-size: 1.5rem;
@@ -160,8 +166,10 @@ h2 {
     letter-spacing: 0.0125rem;
 }
 
-
-
+.footer {
+    font-size: 1rem;
+    letter-spacing: 0.0125rem;
+}
 
 
 
